@@ -44,3 +44,17 @@ top5 = data.head(5)
 print("\nTop 5 Students:")
 print(top5[["Name", "Average"]])
 print("Student Score Analyzer Started")
+
+import matplotlib.pyplot as plt
+
+# --- BAGIAN VISUALISASI ---
+# Kita bikin grafik batang untuk distribusi Grade
+grade_counts.plot(kind='bar', color=['green', 'blue', 'orange', 'red'])
+
+plt.title('Distribusi Grade Siswa')
+plt.xlabel('Grade')
+plt.ylabel('Jumlah Siswa')
+
+# Simpan grafiknya jadi gambar biar bisa dipajang di GitHub
+plt.savefig('grade_distribution.png')
+print("Grafik berhasil dibuat: grade_distribution.png")
