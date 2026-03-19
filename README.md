@@ -12,3 +12,6 @@ Aplikasi sederhana berbasis Python untuk menganalisis nilai siswa secara otomati
 1. Pastikan sudah install Python dan library Pandas (`pip install pandas`).
 2. Masukkan data siswa di `students.csv`.
 3. Jalankan `python main.py`.
+
+## Hasil Analisis
+![Grafik Distribusi Nilai](grade_distribution.png)
